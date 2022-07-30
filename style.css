@@ -1,0 +1,107 @@
+#calculator{
+    display: grid;
+    width: 400px;
+    height: 500px;
+    border: solid 2px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+                      
+#display{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    width: 400px;
+    height: 100px;
+    background-color: #bfbf65;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+}
+#buttons_extras{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+#buttons{
+    display: grid;
+    grid-template-areas:
+     "a1 a2 a3 a13 a14"
+     "a4 a5 a6 a15 a16"
+     "a7 a8 a9 a17 a17"
+     "a11 a10 a12 a17 a17";
+     justify-items: center;
+     
+}
+button{
+    width: 50px;
+    height: 50px;
+    
+}
+.be{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: white;
+}
+.b{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.b1{
+    grid-area: a1;
+}
+
+.b2{
+    grid-area: a2;
+}
+.b3{
+    grid-area: a3;
+}
+.b4{
+    grid-area: a4;
+}
+.b5{
+    grid-area: a5;
+}
+.b6{
+    grid-area: a6;
+}
+.b7{
+    grid-area: a7;
+}
+.b8{
+    grid-area: a8;
+}
+.b9{
+    grid-area: a9;
+}
+.b10{
+    grid-area: a10;
+}
+.b11{
+    grid-area: a11;
+}
+.b12{
+    grid-area: a12;
+}
+.b13{
+    grid-area: a13;
+}
+.b14{
+    grid-area: a14;
+}
+.b15{
+    grid-area: a15;
+}
+.b16{
+    grid-area: a16;
+}
+.b17{
+    grid-area: a17;
+    width: 140px;
+    height: 120px;
+}
